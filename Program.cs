@@ -6,7 +6,7 @@ class joe {
 		
 		int pos = 0;
     for (int i = 1; i <= n; i++)
-      pos = (pos + 2) % i;
+      pos = (pos + 3) % i;
     return pos+1 ;
 	} 
 	static void Main() 
